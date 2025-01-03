@@ -1,0 +1,127 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container
+{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.addButton
+{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,th,td
+{
+    border: 1px solid black;
+}
+
+th,td
+{
+    padding: 10px;
+    text-align: left;
+}
+
+button.editBtn,
+button.saveBtn
+{
+    background-color: #f0ad4e;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button.deleteBtn
+{
+    background-color: #d9534f;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button.cancelBtn
+{
+    background-color: grey;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.modal
+{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: transparent;
+}
+
+.modal-content
+{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid transparent;
+    width: 50%;
+    max-width: 500px;
+}
+
+.close
+{
+    color:#aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus
+{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-buttons
+{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+#userForm button[type="submit"]
+{
+    background-color: blue;
+    color: white;
+    padding: 10px 90px;
+    border: none;
+    cursor: pointer;
+}
